@@ -44,6 +44,8 @@ public class login extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jButton3 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
+        lbllogin1 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -128,6 +130,17 @@ public class login extends javax.swing.JFrame {
         jPanel1.add(jLabel2);
         jLabel2.setBounds(10, 0, 1080, 720);
 
+        lbllogin1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
+        lbllogin1.setForeground(new java.awt.Color(255, 255, 255));
+        lbllogin1.setText("       Login");
+        jPanel1.add(lbllogin1);
+        lbllogin1.setBounds(480, 70, 160, 41);
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/BGpict.jpg"))); // NOI18N
+        jLabel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel1.add(jLabel4);
+        jLabel4.setBounds(420, 60, 350, 350);
+
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
@@ -204,8 +217,10 @@ public class login extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel lbllogin;
+    private javax.swing.JLabel lbllogin1;
     private javax.swing.JLabel lblpassword;
     private javax.swing.JLabel lblusername;
     private javax.swing.JButton loginButton;
